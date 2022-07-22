@@ -6,7 +6,7 @@ const year = new Date().getUTCFullYear()
 
 const DefaultLayout = ({ children }: PropsWithChildren<{}>) => {
   return (
-    <div className="flex flex-col h-full min-h-screen w-full min-w-screen pt-4">
+    <div className="flex flex-col h-full w-full min-w-screen pt-4">
       <header className="text-center h-12 flex flex-row justify-left items-center">
         <MenuLink href="/">Home</MenuLink>
         <AuthMenuButton />
