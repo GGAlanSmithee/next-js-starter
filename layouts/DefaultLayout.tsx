@@ -12,7 +12,7 @@ const DefaultLayout = ({ children }: PropsWithChildren<{}>) => {
         <AuthMenuButton />
       </header>
 
-      <main className="text-center flex-1 pt-8">{children}</main>
+      <main className="text-center flex-grow pt-8">{children}</main>
 
       <footer className="text-sm h-10 lowercase flex items-center justify-center">
         &copy; [Your Company] {year}
