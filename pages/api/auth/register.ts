@@ -17,7 +17,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse<string>) => {
       },
     })
 
-    if (existingUser > 0) return res.status(400).json("email already registered")
+    if (existingUser > 0) return res.status(400).send("email already registered")
 
     await createUser({ email, password })
 
