@@ -1,0 +1,76 @@
+{
+  "prettier.semi": false,
+  "prettier.printWidth": 100,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "importSorter.generalConfiguration.sortOnBeforeSave": true,
+  "importSorter.importStringConfiguration.quoteMark": "double",
+  "importSorter.importStringConfiguration.hasSemicolon": false,
+  "importSorter.sortConfiguration.removeUnusedImports": false,
+  "importSorter.sortConfiguration.removeUnusedDefaultImports": false,
+  "importSorter.importStringConfiguration.tabSize": 2,
+  "importSorter.importStringConfiguration.trailingComma": "multiLine",
+  "importSorter.generalConfiguration.exclude": ["global.d.ts"],
+  "importSorter.sortConfiguration.customOrderingRules.defaultNumberOfEmptyLinesAfterGroup": 0,
+  "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.type": "newLineEachExpressionAfterCountLimitExceptIfOnlyOne",
+  "importSorter.generalConfiguration.sortImportsInDirectory": true,
+  "importSorter.sortConfiguration.customOrderingRules.rules": [
+    {
+      "regex": "react",
+      "orderLevel": 1
+    },
+    {
+      "regex": "next",
+      "orderLevel": 2
+    },
+    {
+      "type": "importMember",
+      "regex": "^$",
+      "orderLevel": 10,
+      "disableSort": true
+    },
+    {
+      "regex": "^[@]",
+      "orderLevel": 30
+    },
+    {
+      "regex": "^assets/*",
+      "orderLevel": 31
+    },
+    {
+      "regex": "^public/*",
+      "orderLevel": 32
+    },
+    {
+      "regex": "^constants/*",
+      "orderLevel": 33
+    },
+    {
+      "regex": "^lib/*",
+      "orderLevel": 34
+    },
+    {
+      "regex": "^store/*",
+      "orderLevel": 35
+    },
+    {
+      "regex": "^hooks/*",
+      "orderLevel": 36
+    },
+    {
+      "regex": "^layouts/*",
+      "orderLevel": 37
+    },
+    {
+      "regex": "^components/*",
+      "orderLevel": 38
+    },
+    {
+      "regex": "^[.]",
+      "orderLevel": 39
+    }
+  ],
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  }
+}
