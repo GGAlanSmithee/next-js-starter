@@ -16,12 +16,16 @@
   "importSorter.generalConfiguration.sortImportsInDirectory": true,
   "importSorter.sortConfiguration.customOrderingRules.rules": [
     {
-      "regex": "react",
+      "regex": "wdyr",
       "orderLevel": 1
     },
     {
-      "regex": "next",
+      "regex": "react",
       "orderLevel": 2
+    },
+    {
+      "regex": "next",
+      "orderLevel": 3
     },
     {
       "type": "importMember",

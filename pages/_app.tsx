@@ -2,6 +2,7 @@ import { SessionProvider } from "next-auth/react"
 import { ReactNode } from "react"
 import { NextPage } from "next"
 import Head from "next/head"
+import "../wdyr"
 import "../styles/globals.css"
 import { DefaultLayout } from "layouts/DefaultLayout"
 
